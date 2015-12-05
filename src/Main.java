@@ -32,7 +32,7 @@ public class Main {
 	            String lastName = resultset.getString("LastName");
 	            Integer dob = resultset.getInt("DOB");
 	            
-	            System.out.println(lastName +  firstName +  dob  );
+	            System.out.printf("Customer %s,%s was born on %d\n",  lastName, firstName, dob  );
 	        }
     	}
     	finally
