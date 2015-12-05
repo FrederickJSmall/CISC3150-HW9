@@ -5,6 +5,7 @@
  */
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -15,7 +16,7 @@ public class Main {
     {
     	Connection connection = null;
     	Statement statement = null;
-    	
+    	ResultSet resultset = null;
     	String url = "jdbc:sqlserver://SQLServer2014;user=sa;password=Homework9;";
     	//String url = "jdbc:sqlserver://localhost;user=sa;password=Homework9;
     	
@@ -23,9 +24,16 @@ public class Main {
 			//connection = DriverManager.getConnection(url,"THE_USER", "THE_PASSWORD");
 			connection = DriverManager.getConnection(url);
 			System.out.println("Connection Established");
-			Statement sta = connection.createStatement();
-			sta.executeQuery("Select * from HW9.dbo.Customer");
-			System.out.println("Data Extracted");			
+			statement = connection.createStatement();
+			resultset = statement.executeQuery("Select * from HW9.dbo.Customer");
+			System.out.println("Data Extracted");
+	        while (resultset.next()) {
+	            String firstName = resultset.getString("FirstName");
+	            String lastName = resultset.getString("LastName");
+	            Integer dob = resultset.getInt("DOB");
+	            
+	            System.out.println(lastName +  firstName +  dob  );
+	        }
     	}
     	finally
     	{
