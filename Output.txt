@@ -1,0 +1,34 @@
+Connection Established
+Accouncing Heroes
+
+
+
+Hero:Superman             		Secret identity:Kent,Clark           	Has 14534 rescues to their name
+Hero:Supergirl            		Secret identity:Kent,Kara            	Has 1997 rescues to their name
+Hero:Green Arrow          		Secret identity:Queen,Oliver         	Has 474 rescues to their name
+Hero:Flash                		Secret identity:Allen,Barry          	Has 54 rescues to their name
+Hero:Atom                 		Secret identity:Palmer,Ray           	Has 474 rescues to their name
+Hero:Hawkman              		Secret identity:Hall,Carter          	Has 488 rescues to their name
+Hero:Hawkgirl             		Secret identity:Saunders,Kendran     	Has 58 rescues to their name
+Hero:Batman               		Secret identity:Wayne,Bruce          	Has 60 rescues to their name
+Hero:Wonder Woman         		Secret identity:Prince,Diana         	Has 23 rescues to their name
+
+
+
+Some of the heroes are on the move; please watch for additional credits
+		Superman has a new rescue to their credit
+		Flash has a new rescue to their credit
+		Superman has a new rescue to their credit
+		Batman has a new rescue to their credit
+		Batman has a new rescue to their credit
+		Wonder Woman has a new rescue to their credit
+
+Hero:Superman             		Secret identity:Kent,Clark           	Has 14536 rescues to their name
+Hero:Supergirl            		Secret identity:Kent,Kara            	Has 1997 rescues to their name
+Hero:Green Arrow          		Secret identity:Queen,Oliver         	Has 474 rescues to their name
+Hero:Flash                		Secret identity:Allen,Barry          	Has 55 rescues to their name
+Hero:Atom                 		Secret identity:Palmer,Ray           	Has 474 rescues to their name
+Hero:Hawkman              		Secret identity:Hall,Carter          	Has 488 rescues to their name
+Hero:Hawkgirl             		Secret identity:Saunders,Kendran     	Has 58 rescues to their name
+Hero:Batman               		Secret identity:Wayne,Bruce          	Has 62 rescues to their name
+Hero:Wonder Woman         		Secret identity:Prince,Diana         	Has 24 rescues to their name
